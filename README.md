@@ -9,9 +9,6 @@ Welcome to my Developer Portfolio project! This project showcases my skills and 
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -22,25 +19,16 @@ This Developer Portfolio is designed to highlight my expertise in web developmen
 - **Interactive 3D graphics powered by Three.js**
 - **Responsive design using Tailwind CSS**
 - **Dynamic and engaging user interface built with React.js**
-- **Integration with various backend technologies like Node.js and CouchDB**
 - **Showcase of real-world projects with detailed descriptions and links**
 
 ## Technologies Used
 
 - HTML5
-- CSS3
 - JavaScript
-- TypeScript
 - React.js
-- Angular
 - Tailwind CSS
-- Node.js
-- CouchDB
 - Three.js
 - Git
-- MS SQL
-- C#
-- .NET
 
 ## Installation
 
@@ -64,15 +52,3 @@ To get a local copy up and running, follow these steps:
 To start the development server, run:
 ```sh
 npm start
-Open your browser and navigate to http://localhost:3000 to view the portfolio.
-
-Contributing
-Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
-
-License
-Distributed under the MIT License. See LICENSE for more information.
-
-Contact
-Raeez - Your LinkedIn Profile - your-email@example.com
-
-Project Link: https://github.com/your-username/Developer-Portfolio
