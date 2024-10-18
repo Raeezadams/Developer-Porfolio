@@ -224,7 +224,7 @@ const projects = [
 	},
 	{
 		name: "Project 3 (Coming Soon)",
-		description: "Another exciting project coming soon. Stay tuned!",
+		description: "A placeholder for my next project. Stay tuned!",
 		tags: [
 			{
 				name: "tbc",
