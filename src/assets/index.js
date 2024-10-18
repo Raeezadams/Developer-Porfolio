@@ -20,6 +20,7 @@ import threejs from "./tech/threejs.svg";
 import mssql from "./tech/mssql.png";
 import uwc from "./tech/uwc.png";
 import tbc from "./tech/tbc.png";
+import tictactoe from "./tech/tictactoe.png";
 import angular from "./tech/angular.png";
 import istore from "./tech/istore.png";
 import wcbs from "./tech/wcbs.png";
@@ -53,4 +54,5 @@ export {
 	wcbs,
 	tbc,
 	mssql,
+	tictactoe,
 };

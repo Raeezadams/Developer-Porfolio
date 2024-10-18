@@ -15,6 +15,7 @@ const ProjectCard = ({
 	tags,
 	image,
 	source_code_link,
+	live_website_link,
 }) => {
 	return (
 		<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -27,24 +28,26 @@ const ProjectCard = ({
 				className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
 			>
 				<div className="relative w-full h-[230px]">
-					<img
-						src={image}
-						alt="project_image"
-						className="w-full h-full object-cover rounded-2xl"
-					/>
+					<a href={live_website_link} target="_blank" rel="noopener noreferrer">
+						<img
+							src={image}
+							alt="project_image"
+							className="w-full h-full object-cover rounded-2xl"
+						/>
 
-					<div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-						<div
-							onClick={() => window.open(source_code_link, "_blank")}
-							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-						>
-							<img
-								src={github}
-								alt="source code"
-								className="w-1/2 h-1/2 object-contain"
-							/>
+						<div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+							<div
+								onClick={() => window.open(source_code_link, "_blank")}
+								className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+							>
+								<img
+									src={github}
+									alt="source code"
+									className="w-1/2 h-1/2 object-contain"
+								/>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 
 				<div className="mt-5">
@@ -53,14 +56,15 @@ const ProjectCard = ({
 				</div>
 
 				<div className="mt-4 flex flex-wrap gap-2">
-					{tags.map((tag) => (
-						<p
-							key={`${name}-${tag.name}`}
-							className={`text-[14px] ${tag.color}`}
-						>
-							#{tag.name}
-						</p>
-					))}
+					{tags.length > 0 &&
+						tags.map((tag) => (
+							<p
+								key={`${name}-${tag.name}`}
+								className={`text-[14px] ${tag.color}`}
+							>
+								#{tag.name}
+							</p>
+						))}
 				</div>
 			</Tilt>
 		</motion.div>
@@ -80,9 +84,9 @@ const Works = () => {
 					variants={fadeIn("", "", 0.1, 1)}
 					className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
 				>
-					This space is reserved for future projects. While I don't have any
-					completed projects to display at the moment, I am actively working on
-					several and will be showcasing them here soon. Stay tuned for updates!
+					This space is reserved for future projects. While I only have one. I
+					am actively working on several and will be showcasing them here soon.
+					Stay tuned for updates!
 				</motion.p>
 			</div>
 

@@ -18,6 +18,7 @@ import {
 	wcbs,
 	istore,
 	tbc,
+	tictactoe,
 	uwc,
 	threejs,
 } from "../assets";
@@ -180,28 +181,30 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "tbc",
-		description: "tbc",
+		name: "Tic Tac Toe (React.js) ",
+		description:
+			"A simple, interactive Tic-Tac-Toe game built using React.js. This project showcases the use of React hooks, component-based design, and state management to create a fun and challenging two-player game. The interface is sleek and responsive, with the logic ensuring a fair play experience.",
 		tags: [
 			{
-				name: "tbc",
+				name: "React",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "tbc",
+				name: "JavaScript",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tbc",
+				name: "GameDevelopment",
 				color: "pink-text-gradient",
 			},
 		],
-		image: tbc,
+		image: tictactoe,
 		source_code_link: "https://github.com/Raeezadams",
+		live_website_link: "https://tic-tac-toe-adba6.web.app/",
 	},
 	{
-		name: "tbc",
-		description: "tbc",
+		name: "Project 2 (Coming Soon)",
+		description: "A placeholder for my next project. Stay tuned!",
 		tags: [
 			{
 				name: "tbc",
@@ -217,11 +220,11 @@ const projects = [
 			},
 		],
 		image: tbc,
-		source_code_link: "https://github.com/Raeezadams",
+		source_code_link: "#",
 	},
 	{
-		name: "tbc",
-		description: "tbc",
+		name: "Project 3 (Coming Soon)",
+		description: "Another exciting project coming soon. Stay tuned!",
 		tags: [
 			{
 				name: "tbc",
@@ -237,7 +240,7 @@ const projects = [
 			},
 		],
 		image: tbc,
-		source_code_link: "https://github.com/Raeezadams",
+		source_code_link: "#",
 	},
 ];
 
