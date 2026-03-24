@@ -27,7 +27,7 @@ import wcbs from './tech/wcbs.png';
 import csharp from './tech/csharp.png';
 import couchDB from './tech/couchDB.png';
 import officeProject from '../assets/OfficeView-officeProject.png';
-import freshStop from './tech/freshStop.png';
+import freshStop from './tech/FreshStop.png';
 
 export {
   logo,
