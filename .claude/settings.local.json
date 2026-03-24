@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh run:*)",
+      "Bash(gh.exe run:*)",
+      "Bash(where gh:*)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/P02773/AppData/Local/Programs//**)",
+      "Read(//c/Users/P02773/scoop/**)",
+      "Bash(cmd.exe /c \"where gh\")",
+      "Bash(npm run:*)"
+    ]
+  }
+}
