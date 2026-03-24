@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a passionate Software Developer dedicated to building robust,
+        I'm a passionate Software Engineer dedicated to building robust,
         efficient, and user-centric web applications. With extensive experience
         in TypeScript, JavaScript, C#, CouchDB, and frameworks such as Angular,
         Node.js, React.js, and Three.js, I craft innovative solutions that drive

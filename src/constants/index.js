@@ -22,6 +22,8 @@ import {
   uwc,
   officeProject,
   threejs,
+  freshStop,
+
 } from '../assets';
 
 export const navLinks = [
@@ -53,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Machine Learning Enthusiast',
+    title: 'AI/ML Developer',
     icon: creator,
   },
 ];
@@ -139,7 +141,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Intern Software Developer',
+    title: 'Junior Software Developer',
     company_name: 'Western Cape Blood Services',
     icon: wcbs,
     iconBg: '#383E56',
@@ -162,7 +164,7 @@ const experiences = [
       'Design, implement, and maintain RESTful APIs to enable seamless integration between internal and external systems',
       'Actively contribute to CI/CD pipeline development and deployment, ensuring smooth and efficient release cycles',
       'Test APIs for expected results and troubleshoot issues',
-      'ollaborate with cross-functional teams for sprint planning and implementation, utilizing DevOps boards to track progress in Agile workflows',
+      'Collaborate with cross-functional teams for sprint planning and implementation, utilizing DevOps boards to track progress in Agile workflows',
     ],
   },
 ];
@@ -248,24 +250,25 @@ const projects = [
     live_website_link: 'http://13.51.70.13:8080/',
   },
   {
-    name: 'Project 3 (Coming Soon)',
-    description: 'A placeholder for my next project. Stay tuned!',
-    tags: [
-      {
-        name: 'tbc',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'tbc',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tbc',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tbc,
+    name: 'Fresh Stop Ordering System',
+    description: 'A full-stack web-based ordering system built for a deli/storefront experience. Customers can browse products by category, search for items, manage their cart, and move through checkout, while admins have access to dedicated store management functionality. This project highlights real-world e-commerce workflows, clean UI design, and practical admin features.',
+tags: [
+    {
+      name: 'ECommerce',
+      color: 'blue-text-gradient',
+    },
+    {
+      name: 'FullStack',
+      color: 'green-text-gradient',
+    },
+    {
+      name: 'AdminPortal',
+      color: 'pink-text-gradient',
+    },
+  ],
+    image: freshStop,
     source_code_link: '#',
+    live_website_link: '#',
   },
 ];
 
