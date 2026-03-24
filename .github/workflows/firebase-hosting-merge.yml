@@ -22,7 +22,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "18.20.3" # Ensure this matches your project's Node.js version
+          node-version: "22.14.0" # Ensure this matches your project's Node.js version
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
