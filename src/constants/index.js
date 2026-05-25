@@ -255,7 +255,7 @@ const projects = [
     ],
     image: officeProject,
     source_code_link: 'https://github.com/Raeezadams/office-management-project',
-    live_website_link: 'http://13.51.70.13:8080/',
+    live_website_link: 'https://13.51.70.13:8080/',
   },
   {
     name: 'Fresh Stop Ordering System',
