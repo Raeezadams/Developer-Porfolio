@@ -18,7 +18,7 @@ import {
   wcbs,
   istore,
   tbc,
-  tictactoe,
+  erc,
   uwc,
   officeProject,
   threejs,
@@ -198,26 +198,34 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Tic Tac Toe (React.js) ',
+    name: 'Engineering Registration Consultants (ERC)',
     description:
-      'A simple, interactive Tic-Tac-Toe game built using React.js. This project showcases the use of React hooks, component-based design, and state management to create a fun and challenging two-player game. The interface is sleek and responsive, with the logic ensuring a fair play experience.',
+      'A professional frontend website designed and built for Engineering Registration Consultants (ERC), focused on clean corporate UI, strong responsive design, clear service communication, and a polished user journey. The site includes custom branding, mobile-first layout improvements, social links, contact and enquiry flows, SEO-conscious structure, and a document submission workflow tailored to the client\'s operational needs.',
     tags: [
       {
         name: 'React',
         color: 'blue-text-gradient',
       },
       {
-        name: 'JavaScript',
+        name: 'Firebase',
         color: 'green-text-gradient',
       },
       {
-        name: 'GameDevelopment',
+        name: 'ResponsiveDesign',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'UI/UX',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'Frontend',
+        color: 'blue-text-gradient',
+      },
     ],
-    image: tictactoe,
-    source_code_link: 'https://github.com/Raeezadams',
-    live_website_link: 'https://tic-tac-toe-adba6.web.app/',
+    image: erc,
+    source_code_link: '#',
+    live_website_link: 'https://www.engrec.co.za',
   },
   {
     name: 'Office Managment System',
@@ -268,7 +276,7 @@ tags: [
   ],
     image: freshStop,
     source_code_link: '#',
-    live_website_link: '#',
+    live_website_link: 'https://shop.jafseas.co.za/',
   },
 ];
 
